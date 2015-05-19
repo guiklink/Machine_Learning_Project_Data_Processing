@@ -113,7 +113,7 @@ match_id,Player 1,Player 2,Pl 1 hand,Pl 2 hand,Gender,Date,Tournament,Round,Time
 20141025-M-Valencia-SF-David_Ferrer-Andy_Murray,David Ferrer,Andy Murray,R,R,M,20141025,Valencia,SF,,Agora,Hard,,3,1,jeffsackmann
 20141024-M-Basel-QF-Grigor_Dimitrov-Roger_Federer,Grigor Dimitrov,Roger Federer,R,R,M,20141024,Basel,QF,,,Hard,Mohamed Lahyani,3,1,jeffsackmann
 20141022-M-Toyota_CH-SF-Yuichi_Sugita-Go_Soeda,Yuichi Sugita,Go Soeda,R,R,M,20141022,Toyota CH,SF,,,Carpet,,3,1,jeffsackmann
-20141022-M-Basel-R32-Ernests_Gulbis-Borna_Coric,Ernests Gulbis,Borna Coric,R,R,M,20141022,Basel,R32,,,Hard,Mohamed El Jennati,3,1,jeffsackmann
+20141022-M-Basel-R32-Ernests_Gulbis-Borna_Coric,Ernests Gulbis,Borna Coric,R,R,M,20141022,Basel,R32,,,Hard,Mohamedï¾ El Jennati,3,1,jeffsackmann
 20141021-M-Valencia-R32-Norbert_Gombos-Feliciano_Lopez,Norbert Gombos,Feliciano Lopez,R,L,M,20141021,Valencia,R32,,Agora,Hard,Ali Nili,3,1,jeffsackmann
 20141020-M-Valencia-R32-Stefan_Kozlov-Martin_Klizan,Stefan Kozlov,Martin Klizan,R,L,M,20141020,Valencia,R32,,Agora,Hard,Ali Nili,3,1,jeffsackmann
 20141020-M-Basel-R32-Dominic_Thiem-David_Goffin,Dominic Thiem,David Goffin,R,R,M,20141020,Basel,R32,,,Hard,,3,1,jeffsackmann
@@ -290,7 +290,7 @@ match_id,Player 1,Player 2,Pl 1 hand,Pl 2 hand,Gender,Date,Tournament,Round,Time
 20131114-M-CH_Tour_Finals-RR-Teymuraz_Gabashvili-Aleksandr_Nedovyesov,Teymuraz Gabashvili,Aleksandr Nedovyesov,R,R,M,20131114,CH Tour Finals,RR,,,Clay,,3,1,jeffsackmann
 20131114-M-CH_Tour_Finals-RR-Alejandro_Gonzalez-Jesse_Huta_Galung,Alejandro Gonzalez,Jesse Huta Galung,R,R,M,20131114,CH Tour Finals,RR,,,Clay,,3,1,jeffsackmann
 20131113-M-CH_Tour_Finals-RR-Guilherme_Clezar-Aleksandr_Nedovyesov,Guilherme Clezar,Aleksandr Nedovyesov,R,R,M,20131113,CH Tour Finals,RR,,,Clay,,3,1,jeffsackmann
-20131112-M-Champaign_CH-R32-Tennys_Sandgren-Filip_Peliwo,Tennys Sandgren,Filip Peliwo,R,R,M,2013 11 12,Champaign CH,R32,8:20 PM CST,1,Indoor hard,,3,1,jeffsackmann
+20131112-M-Champaign_CH-R32-Tennys_Sandgren-Filip_Peliwo,Tennys Sandgren,Filip Peliwo,R,R,M,20131112,Champaign CH,R32,8:20 PM CST,1,Indoor hard,,3,1,jeffsackmann
 20131112-M-Champaign_CH-R32-Marcos_Giron-Rajeev_Ram,Marcos Giron,Rajeev Ram,R,R,M,20131112,Champaign CH,R32,7pm CT,,Indoor hard,,3,1,jeffsackmann
 20131111-M-Tour_Finals-F-Novak_Djokovic-Rafael_Nadal,Novak Djokovic,Rafael Nadal,R,L,M,20131111,Tour Finals,F,,,Indoor hard,Mo,3,1,jeffsackmann
 20131110-M-Tour_Finals-SF-Roger_Federer-Rafael_Nadal,Roger Federer,Rafael Nadal,R,L,M,20131110,Tour Finals,SF,,,Indoor hard,,3,1,jeffsackmann
