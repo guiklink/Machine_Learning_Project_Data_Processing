@@ -3,9 +3,9 @@ import os
 import csv
 from decimal import Decimal
 
-dir = './Data_Archive/Betting_Project_Data'
+dir = './Data_Archive/Charting_Project_Data'
 
-conn = sqlite3.connect('Betting_Data.db')
+conn = sqlite3.connect('ML_Tennis.db')
 conn.text_factory = str
 
 c = conn.cursor()
