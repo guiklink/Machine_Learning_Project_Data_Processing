@@ -3,9 +3,10 @@ import os
 import csv
 from decimal import Decimal
 
-dir = './'
+dir = './Data_Archive/Betting_Project_Data'
 
-conn = sqlite3.connect('ML_Tennis.db')
+conn = sqlite3.connect('Betting_Data.db')
+conn.text_factory = str
 
 c = conn.cursor()
 
@@ -15,7 +16,7 @@ FLOAT_TYPE = 'DOUBLE'
 
 INVALID_CHARS_IN_COLUMN_NAME = ['?','#']
 
-SQL_RESERVED_WORDS = {'SET':'SET_',' ':'_','-':'_','?':'','#':'','+':'PLUS'}
+SQL_RESERVED_WORDS = {'SET':'SET_',' ':'_','-':'_','?':'','#':'','+':'PLUS','&':'_AND_'}
 
 def removedReservedWordsSQL(str):
 	global SQL_RESERVED_WORDS
@@ -103,7 +104,7 @@ def importQuery_inserInto(path, file):
 	# Find out the type for each column
 	for row in dr:
 		for column in columns:
-			values += (row[column],)
+			values += (str(row[column]),)
 		valuesList.append(values)
 		values = ()
 
