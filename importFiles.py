@@ -3,9 +3,9 @@ import os
 import csv
 from decimal import Decimal
 
-dir = './Data_Archive/Charting_Project_Data'
+dir = './Data_Archive/UCI_Data'
 
-conn = sqlite3.connect('ML_Tennis.db')
+conn = sqlite3.connect('UCI_tennis.db')
 conn.text_factory = str
 
 c = conn.cursor()
@@ -16,7 +16,7 @@ FLOAT_TYPE = 'DOUBLE'
 
 INVALID_CHARS_IN_COLUMN_NAME = ['?','#']
 
-SQL_RESERVED_WORDS = {'SET':'SET_',' ':'_','-':'_','?':'','#':'','+':'PLUS','&':'_AND_'}
+SQL_RESERVED_WORDS = {'SET':'SET_',' ':'_','-':'_','?':'','#':'','+':'PLUS','&':'_AND_','.':'_'}
 
 def removedReservedWordsSQL(str):
 	global SQL_RESERVED_WORDS
