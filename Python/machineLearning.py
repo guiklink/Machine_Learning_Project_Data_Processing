@@ -33,4 +33,5 @@ class Tree(object):
 		else:
 			instance = createTrainingInstance(player1, player2, tournament)
 			ans = self.clf.predict([instance])
-			return ans, instance
+			pct = self.clf.predict_proba([instance])
+			return ans, instance, pct

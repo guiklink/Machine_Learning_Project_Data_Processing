@@ -68,9 +68,10 @@ def predict(player1, player2):
 		tree = Tree()
 		tree.train()
 	print '\n\nPredicting: ' + player1 + ' | ' + player2 + ' (' + tournament + ')'
-	ans, instance = tree.predict(player1, player2, tournament)
+	ans, instance, pct = tree.predict(player1, player2, tournament)
 	print '\n\nAnswers:'
 	print ans
+	print pct
 	result1 = str(ans[0]) + ' will WIN!'
 	resultsLabel.configure(text=result1)
 	result2 = 'Dataset used: ' + str(instance)
